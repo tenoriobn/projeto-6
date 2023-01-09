@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .patrocinio__imgs {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .patrocinio__imgs {
+        width: 95%;
+    }
+}

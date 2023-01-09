@@ -1,0 +1,46 @@
+.footer__logotipo {
+    width: 151px;
+
+    padding-bottom: 2rem;
+}
+
+.footer__links {
+    border-bottom: 1px solid #CCD5DF;
+    border-top: 1px solid #CCD5DF;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.footer__nav--link {
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.footer__nav--link:hover {
+    color: var(--roxo-mauve)!important;
+    font-size: 17px;
+}
+
+.footer__nav--link:active {
+    color: var(--roxo-claro)!important;
+}
+
+.rodape__creditos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__links {
+        border-bottom: 1px solid #CCD5DF;
+        border-top: none!important;
+    
+        padding-bottom: 3.125rem;
+    }
+
+    .rodape__creditos {
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}

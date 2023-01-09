@@ -1,0 +1,67 @@
+@import url(_variaveis.css);
+@import url(../componentes/1-header/1-cabecalho.css);
+@import url(../componentes/2-main/1-chamada.css);
+@import url(../componentes/2-main/2-patrocinio.css);
+@import url(../componentes/2-main/3-colecoes.css);
+@import url(../componentes/2-main/4-time.css);
+@import url(../componentes/2-main/5-servicos.css);
+@import url(../componentes/2-main/6-testemunhos.css);
+@import url(../componentes/2-main/7-perguntas.css);
+@import url(../componentes/2-main/8-vendas.css);
+@import url(../componentes/3-footer/1-footer.css);
+
+body {
+    background-color: #fcfaff!important;
+    font-family: var(--fonte-secundaria)!important;
+}
+
+.subtitulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.paragrafos {
+    color: var(--roxo-mauve)!important;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.card__titulo {
+    font-family: var(--fonte-terciaria);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+.card__paragrafo {
+    color: var(--roxo-mauve);
+    font-family: var(--fonte-terciaria);
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .subtitulo {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .paragrafos {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .subtitulo {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .paragrafos {
+        width: 80%;
+    }
+}

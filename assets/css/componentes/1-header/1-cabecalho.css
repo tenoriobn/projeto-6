@@ -1,0 +1,48 @@
+.cabecalho {
+    border-bottom: 1px solid #f8e0fb;
+}
+
+.navbar__toggler--mod:focus  {
+    box-shadow: none!important;
+}
+
+.menu__hamburguer--icon {
+    background-image: url(../../../img/icon/menu-hamburguer.svg)!important;
+}
+
+.offcanvas__mod {
+    background-color: #fcfaff;
+    background-image: url(../../../img/banner/chamada__banner.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border: none!important;
+    transition: .7s;
+}
+
+.btn__close--mod:focus  {
+    box-shadow: none!important;
+}
+
+.nav__link--mod {
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.nav__link--mod:hover {
+    color: var(--roxo-mauve)!important;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.nav__link--mod:active {
+    color: var(--roxo-claro)!important;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas__mod {
+        background-color: #fcfaff!important;
+        background-image: none!important;
+    }
+}

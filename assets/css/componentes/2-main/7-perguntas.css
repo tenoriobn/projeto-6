@@ -1,0 +1,29 @@
+.accordion__mod {
+    border-color: var(--roxo-claro);
+}
+
+.accordion__subtitulo {
+    color: var(--preto);
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    opacity: .8;
+}
+
+.accordion__button-mod::after {
+    background-image: url(../../../img/icon/seta-baixo.svg)!important;
+}
+
+.accordion__paragrafo {
+    color: var(--roxo-mauve);
+    font-family: var(--fonte-secundaria);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+@media screen and (min-width: 992px) {
+    .perguntas__paragrafo--lg {
+        width: 25.75rem!important;
+    }
+}

@@ -1,0 +1,19 @@
+:root {
+    /* Cores */
+    --azul: #3182CE;
+    --azul-claro: #E2E8F0;
+    --branco: #FFFFFF;
+    --cinza: #7f7f7f;
+
+    --preto: #000000;
+
+    --verde-turqueza: #065666;
+
+    --roxo-claro: #D6BCFA;
+    --roxo-mauve: #532C59;
+
+    /* Fonte */
+    --fonte-terciaria: 'Lexend Deca', sans-serif;
+    --fonte-secundaria: 'Space Grotesk', sans-serif;
+    --fonte-primaria: 'Syne', sans-serif;
+}

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&family=Space+Grotesk:wght@300;400;500&family=Syne:wght@600;700&display=swap" rel="stylesheet">
+    <title>ZEUS UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-mod pt-3 pb-3">
+            <div class="container">
+                <button class="navbar-toggler navbar__toggler--mod p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon menu__hamburguer--icon"></span>
+                </button>
+
+                <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="d-lg-none logotipo position-absolute start-50 translate-middle-x">
+                
+                <div class="offcanvas offcanvas__mod offcanvas-end offcanvas-mod w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <header class="offcanvas-header">
+                        <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="logotipo position-absolute start-50 translate-middle-x">
+                        <button type="button" class="btn-close btn__close--mod ps-0 pe-0 pt-3 pb-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </header>
+                    
+                    <nav class="menu__mobile">
+                        <ul class="d-lg-none navbar-nav justify-content-end flex-grow-1 align-items-center gap-3 position-absolute top-50 start-50 translate-middle">
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">University</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">Courses</a></li>                           
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">Use cases</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">Plans</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod" href="#">Resources</a></li>
+                        </ul>
+                    </nav><!-- Menu para Mobile e Tablet-->
+
+                    <nav class="menu__desktop d-none d-lg-flex align-items-center">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 align-items-center gap-4">
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">University</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">Courses</a></li>                           
+                        </ul>
+
+                        <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="logotipo">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 align-items-center gap-4">                       
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">Use cases</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">Plans</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link--mod p-0" href="#">Resources</a></li>
+                        </ul>
+                    </nav><!-- Menu para Desktop-->
+                </div><!-- Container dos menus-->
+
+            </div><!-- Container -->
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="chamada__background">
+            <section class="chamada container d-flex flex-column justify-content-center align-items-center">
+                <h2 class="subtitulo chamada__subtitulo mb-3 mb-md-4 text-black text-center">Create & sell your NFTs today</h2>
+                <p class="paragrafo chamada__paragrafo mb-4 mb-md-4 text-center w-75">In tincidunt montes, leo dolor duis eget venenatis. In vel fusce commodo, nullam vitae nisi. Ullamcorper nam pellentesque scelerisque nibh etiam in. Luctus.</p>
+                
+                <aside class="chamada__container-botoes d-flex d-md-none justify-content-center align-items-center gap-3 mb-4 w-100">
+                    <button type="button" class="btn btn-contact pt-2 pb-2 w-100">Contact sales <span class="chamada__botao-contato"></span></button>
+                    <a class="btn btn-teste pt-3 pb-3 rounded-0 w-100">Try for free</a>
+                </aside>
+
+                <a class="btn btn-vendas pt-3 pb-3 ps-4 pe-4 rounded-4">Let’s sell</a>
+            </section>
+        </section>
+
+        <section class="container patrocinio d-flex align-items-center justify-content-center mb-5">
+            <article class="row row-cols-3 row-cols-md-3 row-cols-lg-6 g-4 patrocinio__imgs">
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/logoipsum1.svg" class="card-img-top" alt="Logotipo da Logoipsum">
+                </figure>
+                
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/logoipsum2.svg" class="card-img-top" alt="Logotipo da Logoipsum">
+                </figure>
+
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/logoipsum3.svg" class="card-img-top" alt="Logotipo da Logoipsum">
+                </figure>
+
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/zeusUi.svg" class="card-img-top" alt="Logotipo do Zeus Ui">
+                </figure>
+
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/logoipsum4.svg" class="card-img-top" alt="Logotipo da Logoipsum">
+                </figure>
+
+                <figure class="col mb-0">
+                    <img src="assets/img/logotipo/logoipsum5.svg" class="card-img-top" alt="Logotipo da Logoipsum">
+                </figure>
+            </article>
+        </section>
+
+        <section class="container colecoes d-flex flex-column justify-content-center align-items-center pt-5 pb-4">
+            <h2 class="subtitulo text-black text-center">Hottest Collections</h2>
+            <p class="paragrafos d-md-none text-center mb-5">Ante ornare dictum dignissim erat natoque. Platea neque facilisis diam id venenatis. Ultrices dolor, ac vel consectetur. Gravida lobortis venenatis faucibus sed ipsum. Urna.</p>
+            <p class="paragrafos colecoes__paragrafo--md text-center mb-5">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt.</p>
+
+            <article class="row row-cols-1 row-cols-md-3 g-4">
+                <article class="col">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/moonbirds-sm.svg" class="card-img-top d-md-none d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/moonbirds-md.svg" class="card-img-top d-none d-md-block d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Moonbirds.svg" class="card-img-top d-none d-lg-block" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Moonbirds</h5>
+                            <p class="colecoes__card--text text-center">Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Clone X - X Takashi Murakami-sm.svg" class="card-img-top d-md-none d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Clone X - X Takashi Murakami-md.svg" class="card-img-top d-none d-md-block d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Clone X - X Takashi Murakami.svg" class="card-img-top d-none d-lg-block" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Clone X - X Takashi Murakami</h5>
+                            <p class="colecoes__card--text text-center">Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Mutant-md.svg" class="card-img-top d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Mutant.svg" class="card-img-top d-md-none d-lg-block" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Mutant Ape Yacht Club</h5>
+                            <p class="colecoes__card--text text-center">Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Moar-md.svg" class="card-img-top d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Moar.svg" class="card-img-top d-md-none d-lg-block" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">"MOAR" by Joan Cornella</h5>
+                            <p class="colecoes__card--text text-center">Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Doodles-md.svg" class="card-img-top d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Doodles.svg" class="card-img-top d-md-none d-lg-block" alt="Icone do card">
+                        
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Doodles</h5>
+                            <p class="colecoes__card--text text-center">Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/KIWAMI-md.svg" class="card-img-top d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/KIWAMI.svg" class="card-img-top d-md-none d-lg-block" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">KIWAMI Genesis</h5>
+                            <p class="colecoes__card--text text-center">Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md card__lg">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Arcade.svg" class="card-img-top" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Arcade Land</h5>
+                            <p class="colecoes__card--text text-center">Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__md card__lg">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Goons.svg" class="card-img-top" alt="Icone do card">
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Goons of Balatroon</h5>
+                            <p class="colecoes__card--text text-center">Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col card__lg">
+                    <figure class="card bg-transparent border-0 h-100 mb-0">
+                        <img src="assets/img/icon/Meta Toy DragonZ-sm.svg" class="card-img-top d-lg-none" alt="Icone do card">
+                        <img src="assets/img/icon/Meta Toy DragonZ.svg" class="card-img-top d-none d-lg-block" alt="Icone do card">
+
+
+                        <figcaption class="card-body ps-0 pe-0 ps-lg-2 pe-lg-2">
+                            <h5 class="colecoes__card--title text-black text-center">Meta Toy DragonZ</h5>
+                            <p class="colecoes__card--text text-center">Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus.</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+                
+            </article>
+        </section>
+
+        <section class="container time pt-5 mb-5">
+            <article class="d-flex flex-column align-items-center">
+                <h2 class="subtitulo text-black text-center">Our Team</h2>
+                <p class="paragrafos colecoes__paragrafo--lg text-center mb-5">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+            </article>
+                
+            <article class="row row-cols-2 row-cols-md-4 g-4">
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/Guy Hawkins.svg" class="card-img-top w-auto" alt="Avatar dos colaboradores">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Guy Hawkins</h5>
+                            <p class="card__paragrafo text-center mb-0">CEO</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/Jane Cooper.svg" class="card-img-top w-auto" alt="Avatar dos colaboradores">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Jane Cooper</h5>
+                            <p class="card__paragrafo text-center mb-0">COO</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/Darrell Steward.svg" class="card-img-top w-auto" alt="Avatar dos colaboradores">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Darrell Steward</h5>
+                            <p class="card__paragrafo text-center mb-0">CTO</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/Dianne Russell.svg" class="card-img-top w-auto" alt="Avatar dos colaboradores">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Dianne Russell</h5>
+                            <p class="card__paragrafo text-center mb-0">CDO</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+            </article>
+        </section>
+
+        <section class="container servicos d-flex flex-column align-items-center pt-5 mb-5">
+            <h2 class="subtitulo text-black text-center">We Provide</h2>
+            <p class="paragrafos servicos__paragrafo--lg text-center mb-5">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+        
+            <article class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/NFTs.svg" class="card-img-top w-auto" alt="...">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Host your NFTs</h5>
+                            <p class="card__paragrafo text-center mb-0">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/sales.svg" class="card-img-top w-auto" alt="...">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">See your sales</h5>
+                            <p class="card__paragrafo text-center mb-0">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/wallet.svg" class="card-img-top w-auto" alt="...">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">Secure wallet</h5>
+                            <p class="card__paragrafo text-center mb-0">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+
+                <article class="col">
+                    <figure class="card border-0 h-100 mb-0 align-items-center bg-transparent">
+                        <img src="assets/img/icon/scam.svg" class="card-img-top w-auto" alt="...">
+                        <figcaption class="card-body">
+                            <h5 class="card__titulo text-black text-center">No scam</h5>
+                            <p class="card__paragrafo text-center mb-0">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
+                        </figcaption>
+                    </figure>
+                </article><!-- Container Col Grid -->
+            </article>
+        </section>
+
+        <section class="testemunhos">
+            <h2 class="subtitulo text-black mb-4 pt-5 text-center">Testimonials</h2>
+            
+            <figure class="d-md-none">
+                <img src="assets/img/icon/Testimonials.svg" alt="" class="w-100">
+            </figure>
+            
+            <figure class="container d-none d-md-block d-lg-none mb-0 mt-5">
+                <img src="assets/img/icon/Testimonials-md.svg" alt="" class="w-100">
+            </figure>
+
+            <figure class="container d-none d-lg-block mb-0 mt-5">
+                <img src="assets/img/icon/Testimonials-lg.svg" alt="" class="w-100">
+            </figure>
+        </section>
+
+        <section class="container perguntas d-md-flex justify-content-between mb-5 pt-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <article class="col d-flex flex-column align-items-center align-items-md-start">
+                    <h2 class="subtitulo text-black text-center text-md-start">Frequently Asked Questions</h2>
+                    <p class="paragrafos perguntas__paragrafo--lg text-center text-md-start mb-5">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+                </article>
+
+                <article class="col">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingOne">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">What kind of websites I can build with Zeus UI?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">What makes Zeus UI literally the best Web UI kit in the Internet?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingThree">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">How much does Zeus UI cost?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingFour">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">How long will you support Zeus UI?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+                        </div>
+
+                        <div class="col">
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingFive">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">Can I use Zeus UI in commercial projects?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingSix">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">Can I resell Zeus UI?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">Could you make me a website using Zeus UI?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+
+                            <aside class="accordion mb-3" id="accordionExample">
+                                <article class="accordion-item accordion__mod rounded-4">
+                                    <header class="accordion-header" id="headingEight">
+                                        <button class="accordion-button accordion__button-mod bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                            <h2 class="accordion__subtitulo mb-0 w-75">Is that easy to design a website with Zeus UI?</h2>
+                                        </button>
+                                    </header>
+                                
+                                    <main id="collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <p class="accordion-body accordion__paragrafo mb-0 pt-0">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                                    </main>
+                                </article>
+                            </aside>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="container mb-5">
+            <aside class="background__vendas">
+                <article class="vendas d-flex flex-column align-items-center justify-content-center pt-4 pb-4 pt-md-0 pb-md-0">
+                    <h2 class="subtitulo vendas__subtitulo text-black text-center w-75">Ready to sell your NFTs?</h2>
+                    <p class="paragrafos vendas__paragrafo text-center mb-3">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+                    <a class="btn__vendas pt-3 pb-3 ps-4 pe-4 rounded-4 text-center text-decoration-none" type="button">Sell right now</a>
+                </article>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="container rodape pt-5">
+        <section class="footer__mobile d-md-none">
+            <figure class="d-flex flex-column align-items-center mb-0">
+                <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="logotipo footer__logotipo">
+            </figure>
+
+            <nav class="footer__links d-flex justify-content-around">
+                <ul class="nav flex-column">
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">About us</a></li>
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Team</a></li>
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Careers</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Socials</a></li>
+                </ul>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Activity</a></li>
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">License</a></li>
+                    <li class="nav-item text-center pb-4"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Refunds</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Cookies</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="footer__tablet d-none d-md-block d-lg-none">
+            <nav class="footer__links d-flex align-items-center justify-content-between">
+                <figure class="d-flex flex-column align-items-center mb-0">
+                    <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="logotipo footer__logotipop b-0">
+                </figure>
+
+                <ul class="nav gap-4">
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Terms & Conditions</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Privacy Policy</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Cookies</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Refunds</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">License</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="footer__tablet d-none d-lg-block">
+            <nav class="footer__links d-flex align-items-center justify-content-between">
+                <ul class="nav gap-4">
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Terms & Conditions</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Privacy Policy</a></li>
+                </ul>
+                
+                <figure class="d-flex flex-column align-items-center mb-0">
+                    <img src="assets/img/logotipo/logotipo-zeus.svg" alt="Logotipo do Site" class="logotipo footer__logotipop b-0">
+                </figure>
+
+                <ul class="nav gap-4">    
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Cookies</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">Refunds</a></li>
+                    <li class="nav-item text-center"><a class="footer__nav--link text-black-50 text-decoration-none" href="#">License</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <p class="rodape__creditos text-black-50 text-center">&copy;2022 Bruno Tenório - Zeus UI</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>

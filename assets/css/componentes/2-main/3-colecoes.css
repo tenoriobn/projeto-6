@@ -1,0 +1,56 @@
+.card__md {
+    display: none;
+}
+
+.colecoes__card--title {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.colecoes__card--text {
+    color: var(--roxo-mauve);
+    font-size: .75rem;
+    line-height: 1.125rem;
+}
+
+.colecoes__paragrafo--md {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .card__md {
+        display: block;
+    }
+
+    .card__lg {
+        display: none;
+    }
+
+    .colecoes__paragrafo--md {
+        display: block;
+
+        width: 43.875rem;
+    }
+
+    .colecoes__card--text {
+        font-size: .875rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card__lg {
+        display: block;
+    }
+
+    .colecoes__card--title {
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+
+    .colecoes__paragrafo--md {
+        width: 46.75rem!important;
+    }
+}

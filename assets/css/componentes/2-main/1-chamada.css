@@ -1,0 +1,129 @@
+.chamada__background {
+    background-image: url(../../../img/banner/chamada__banner.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 80vh;
+}
+
+.chamada {
+    height: 80vh;
+}
+
+.chamada__paragrafo {
+    color: var(--roxo-mauve);
+}
+
+.btn-contact {
+    background-color: var(--azul-claro);
+    color: var(--verde-turqueza);
+
+    font-family: var(--fonte-terciaria)!important;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.chamada__botao-contato {
+    background-image: url(../../../img/icon/mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: inline-block;
+    height: 1.25rem;
+    vertical-align: middle;
+    width: 1.25rem;
+}
+
+.btn-contact:hover {
+    background-color: var(--roxo-claro)!important;
+    border-color: var(--roxo-claro)!important;
+    color: var(--preto)!important;
+}
+
+.btn-teste {
+    background-color: var(--azul);
+    color: var(--branco);
+
+    font-family: var(--fonte-terciaria)!important;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.btn-teste:hover {
+    background-color: var(--verde-turqueza)!important;
+    border-color: var(--verde-turqueza)!important;
+    color: var(--branco)!important;
+}
+
+.btn-vendas {
+    background-color: var(--roxo-mauve);
+    color: var(--branco);
+
+    font-family: var(--fonte-primaria)!important;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.btn-vendas:hover {
+    background-color: var(--roxo-claro)!important;
+    border-color: var(--roxo-claro)!important;
+    font-size: 1.1rem;
+}
+
+.btn-vendas:active {
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__background {
+        background-image: url(../../../img/banner/chamada__banner-md.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 75vh;
+    }
+    
+    .chamada {
+        height: 75vh;
+    }
+
+    .chamada__subtitulo {
+        font-size: 4.5rem!important;
+        line-height: 5.5rem!important;
+
+        width: 41.3125rem!important;
+    }
+    
+    .chamada__paragrafo {
+        width: 43.5rem!important;
+    }
+}
+
+@media screen and (min-width: 992px) {    
+    .chamada__background {
+        background-image: url(../../../img/banner/chamada__banner-lg.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+        height: 85vh;
+    }
+
+    .chamada {
+        height: 85vh;
+    }
+
+    .chamada__subtitulo {
+        font-size: 5rem!important;
+        line-height: 6rem!important;
+        
+        width: 45.625rem!important;
+    }
+
+    .chamada__paragrafo {
+        width: 43.875rem!important;
+    }
+}
